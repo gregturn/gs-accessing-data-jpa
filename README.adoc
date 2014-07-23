@@ -19,8 +19,12 @@ include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/how_to_complete_this_guide.adoc[]
 
 
+[.reveal-gradle]
+== Build with Gradle
+
 [[scratch]]
-== Set up the project
+[.use-gradle]
+== Build with Gradle
 
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/build_system_intro.adoc[]
 
@@ -28,6 +32,7 @@ include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/
 
 
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/create_both_builds.adoc[]
+
 `build.gradle`
 // AsciiDoc source formatting doesn't support groovy, so using java instead
 [source,java]
@@ -36,6 +41,30 @@ include::initial/build.gradle[]
 ----
 
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/spring-boot-gradle-plugin.adoc[]
+
+[.reveal-maven] 
+== Build with Maven
+
+[.use-maven]
+== Build with Maven
+
+include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/build_system_intro_maven.adoc[]
+
+include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/create_directory_structure_hello.adoc[]
+
+`pom.xml`
+[source,xml]
+----
+include::initial/pom.xml[]
+----
+
+[.reveal-sts]
+== Build with Spring Tool Suite
+
+[.use-sts]
+== Build with Spring Tool Suite
+
+If you have Spring Tool Suite, then you can simply link:/guides/gs/sts/[import this guide directly].
 
 [[initial]]
 == Define a simple entity
