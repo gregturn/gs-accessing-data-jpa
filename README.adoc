@@ -20,7 +20,7 @@ include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/
 
 
 [.reveal-gradle]
-[float]
+[discrete]
 == Build with Gradle
 
 [[scratch]]
@@ -44,7 +44,7 @@ include::initial/build.gradle[]
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/spring-boot-gradle-plugin.adoc[]
 
 [.reveal-maven] 
-[float]
+[discrete]
 == Build with Maven
 
 [.use-maven]
@@ -61,7 +61,7 @@ include::initial/pom.xml[]
 ----
 
 [.reveal-sts]
-[float]
+[discrete]
 == Build with Spring Tool Suite
 
 [.use-sts]
