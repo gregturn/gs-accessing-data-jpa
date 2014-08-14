@@ -19,7 +19,7 @@ include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/how_to_complete_this_guide.adoc[]
 
 
-[discrete, role="reveal-gradle"]
+[discrete]
 == Build with Gradle
 
 [[scratch]]
