@@ -63,8 +63,16 @@ include::initial/pom.xml[]
 
 [.use-sts]
 == Build with Spring Tool Suite
-
 If you have Spring Tool Suite, then you can simply link:/guides/gs/sts/[import this guide directly].
+
+== Building the code
+
+[.reveal-gradle]
+=== Build with Gradle
+
+[[scratch]]
+[.use-gradle]
+=== Build with Gradle
 
 [[initial]]
 == Define a simple entity
